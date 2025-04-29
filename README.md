@@ -31,6 +31,22 @@ The merged dataset, which is used for training the machine learning model, is st
 - In the **Prediction.ipynb** notebook, the trained model is used to make predictions based on the latest stock data.
 - The user can enter the **Open**, **Close**, and **Volume** for today’s Tesla stock data to get predictions for tomorrow’s movement.
 
+## Architecture
+
+![image](https://github.com/user-attachments/assets/2e9702b9-0193-4910-81e0-09423696c88a)
+
 ## QuickSight Insights
 
 The predictions from the model are automatically saved as **predictions_log.csv** in **S3**. These insights are then visualized using **AWS QuickSight**, where graphs and trends are plotted to show how predictions evolve over time.
+
+![Screenshot 2025-04-27 165342](https://github.com/user-attachments/assets/2ae42441-666f-408f-b59b-8eb932ecfc27)
+
+![Screenshot 2025-04-27 163137](https://github.com/user-attachments/assets/42944110-2732-41b3-a8b7-290201eaadf9)
+
+![Screenshot 2025-04-27 171210](https://github.com/user-attachments/assets/ed38cdab-459f-407d-8c65-e7dc04c16d3c)
+
+## StreamLit
+
+![Screenshot 2025-04-28 002013](https://github.com/user-attachments/assets/71d61b35-57f6-4223-81a5-8ef5e172cc22)
+
+![Screenshot 2025-04-28 002028](https://github.com/user-attachments/assets/de145d20-d9d1-4041-9abf-049276c1b3ff)
